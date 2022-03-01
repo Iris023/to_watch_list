@@ -55,7 +55,7 @@ export class ToWatchList extends Component {
                     <ul>
                         {this.state.list.map((movie, index) => (
                             <li onClick={this.watched} key={index}>
-                                <img src={videoImg} className="videoPic"/> {movie}
+                                <img src={videoImg} className="videoPic" alt="pic"/> {movie}
                             </li>
                         ))}
                     </ul>
